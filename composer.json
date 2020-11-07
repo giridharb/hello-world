@@ -1,0 +1,17 @@
+{
+    "name": "phplot/hello-world",
+    "description": "This is test package",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Giridhar Borke",
+            "email": "giridharborke@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {"phplot\\HelloWorld\\": "src/"}
+    },
+    "require": {}
+}
